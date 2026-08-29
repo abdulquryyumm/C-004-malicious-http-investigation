@@ -75,6 +75,11 @@ The following screenshot shows the outbound HTTP POST request from the workstati
 ![HTTP Upload Evidence](evidence/http_post_details.png)
 ![HTTP Upload Evidence](evidence/post_IPs.png)
 
+### Evidence: Executable Request
+The following screenshot shows the workstation requesting the executable-like resource `agent.exe` from the remote server.
+
+![Executable Request Evidence](evidence/agent_exe.png)
+
 ## Evidence of Data Transfer
 The PCAP provided evidence of an outbound HTTP POST request from the workstation `10.0.2.15` to the remote server `198.51.100.23`.
 
