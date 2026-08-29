@@ -73,6 +73,7 @@ The presence of the `MZ` signature at the beginning of the recovered object is c
 The following screenshot shows the outbound HTTP POST request from the workstation to the remote server, including the reference to `system_info.txt`.
 
 ![HTTP Upload Evidence](evidence/http_post_details.png)
+![HTTP Upload Evidence](evidence/post_IPs.png)
 
 ## Evidence of Data Transfer
 The PCAP provided evidence of an outbound HTTP POST request from the workstation `10.0.2.15` to the remote server `198.51.100.23`.
