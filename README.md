@@ -85,6 +85,14 @@ The following screenshot shows the HTTP response from the remote server after th
 
 ![Executable-Like Payload Evidence](evidence/agent_exe_payload.png)
 
+### Evidence: Recovered Payload Analysis
+The HTTP object was extracted from the PCAP and examined safely in Kali Linux without executing it. The recovered object contained the following data:
+![ Payload Analysis Evidence](evidence/payload_analysis.png)
+
+```text
+MZFAKEPAYLOADDAT
+```
+
 ## Evidence of Data Transfer
 The PCAP provided evidence of an outbound HTTP POST request from the workstation `10.0.2.15` to the remote server `198.51.100.23`.
 
