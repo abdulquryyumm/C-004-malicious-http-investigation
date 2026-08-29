@@ -80,6 +80,11 @@ The following screenshot shows the workstation requesting the executable-like re
 
 ![Executable Request Evidence](evidence/agent_exe.png)
 
+### Evidence: Executable-Like Payload
+The following screenshot shows the HTTP response from the remote server after the workstation requested `agent.exe`. The response returned an `application/octet-stream` object with a content length of 16 bytes. The recovered payload begins with the `MZ` signature.
+
+![Executable-Like Payload Evidence](evidence/agent_exe_payload.png)
+
 ## Evidence of Data Transfer
 The PCAP provided evidence of an outbound HTTP POST request from the workstation `10.0.2.15` to the remote server `198.51.100.23`.
 
